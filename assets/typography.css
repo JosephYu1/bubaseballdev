@@ -1,0 +1,43 @@
+:root {
+    --baylorGreen: #154734;
+    --universityGold: #FFB81C;
+    --charcoal: #383838;
+    --linkGreen: #006A52;
+    --linkGreenHover: #154734;
+    --alertRed: #a60000
+}
+
+body {
+    font-family: "font", sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    font-weight: medium;
+    color: var(--charcoal);
+}
+
+[data-background_color=dark] :is(h1,h2,h3,h4,h5,h6,p,svg) {
+    color: #fff
+}
+
+[data-background_color=light] :is(h1,h2,h3,h4,h5,h6,svg) {
+    color: var(--baylorGreen)
+}
+
+h2 {
+    font-size: x-large;
+    font-family: sans-serif;
+    color: var(--universityGold); 
+    font-weight: bolder;
+}
+
+h1, h3, h4,h6 {
+    font-family: bio-sans, sans-serif;
+    font-weight: bold;
+    color: var(--baylorGreen)
+}
+
+h5 {
+    font-family: bio-sans, sans-serif;
+    font-weight: bold;
+    color: var(--universityGold)
+}
