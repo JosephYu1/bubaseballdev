@@ -26,4 +26,14 @@
           * Serving Flask app 'app'
           * Debug mode: on
          
+---
+
+#### Authors ####
+
+Greg Speegle, Ph.D., Departmenat of Computer Science, Baylor Univesity
+Joseph Yu, Department of Computer Science, Baylor University
+
+##### Acknowledgements #####
+
+Baylor Data Science Capstone 23 Team members
 
