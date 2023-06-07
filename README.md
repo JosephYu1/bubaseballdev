@@ -1,6 +1,10 @@
 # bubaseballdev
   This is the repository for the development and maintaince of the BU baseball Web App on the development server.  
 
+#### Prerequisites: ####
+##### Python Environment #####
+  The application requires python packages from the file [`env_setup/server_config.yml`](https://github.com/JosephYu1/bubaseballdev/blob/main/env_setup/server_config.yml)
+
 #### Installation Guide: ####
 
 ##### Start in Debug Mode #####
