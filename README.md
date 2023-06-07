@@ -30,8 +30,8 @@
 
 #### Authors ####
 
-Greg Speegle, Ph.D., Departmenat of Computer Science, Baylor Univesity
-Joseph Yu, Department of Computer Science, Baylor University
+  Greg Speegle, Ph.D., Departmenat of Computer Science, Baylor Univesity
+  Joseph Yu, Department of Computer Science, Baylor University
 
 ##### Acknowledgements #####
 
