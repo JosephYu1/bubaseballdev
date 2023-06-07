@@ -5,6 +5,15 @@
 ##### Python Environment #####
   The application requires python packages from the file [`env_setup/server_config.yml`](https://github.com/JosephYu1/bubaseballdev/blob/main/env_setup/server_config.yml)
 
+##### Example Environment Setup with Conda #####
+  With Anaconda installed and avaiable on your machine, with the python package requirements file [`env_setup/server_config.yml`](https://github.com/JosephYu1/bubaseballdev/blob/main/env_setup/server_config.yml)
+
+  ```bash
+  conda env create -f /path/of/file/server_config.yml
+  conda activate server_config
+  ```
+
+
 #### Installation Guide: ####
 
 ##### Start in Debug Mode #####
