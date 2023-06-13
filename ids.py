@@ -99,7 +99,8 @@ CORR_TAB = "CORR-tab"
 STRIKEZONE_TAB = "strikezone-tab"
 DENSITY_TAB = "density-tab"
 WOBA_TAB = "woba-tab"
-CUSTOM_TAB = "custom-tab"
+# CUSTOM_TAB = "custom-tab"
+NEW_PITCHER_TAB = "custom-tab"
 
 # stored data
 STORED_DATA = "stored-data"

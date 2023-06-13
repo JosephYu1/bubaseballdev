@@ -938,13 +938,13 @@ woba_graph = html.Div(
 
 graph_container = html.Div(
     [
-        dbc.Button("Add Graph", 
-                    id='add-chart', 
-                    n_clicks=0,
-                    size = "lg",
-                    outline = False,
-                    color="secondary",
-                    ),
+        # dbc.Button("Add Graph", 
+        #            id='add-chart', 
+        #            n_clicks=0,
+        #            size = "lg",
+        #            outline = False,
+        #            color="secondary",
+        #            ),
         html.Div(id='container', children=[]),
     ]
 )

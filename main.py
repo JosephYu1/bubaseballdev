@@ -43,11 +43,12 @@ sidebar = html.Div(
         html.H2("HISTORICAL ANALYSIS", className="lead"),
         dbc.Nav(
             [
+                dbc.NavLink("New Pitcher Analysis", href="/custom", active="exact", id = ids.NEW_PITCHER_TAB, n_clicks = 0),
                 dbc.NavLink("Team Analysis", href="/team", active="exact", id = ids.TEAM_TAB, n_clicks = 0),
                 dbc.NavLink("Correlation Analysis", href="/correlation", active="exact", id = ids.CORR_TAB, n_clicks = 0),
                 dbc.NavLink("Strikezone Analysis", href="/strikezone", active="exact", id = ids.STRIKEZONE_TAB, n_clicks = 0),
                 dbc.NavLink("wOBA Analysis", href="/woba", active="exact", id = ids.WOBA_TAB, n_clicks = 0),
-                dbc.NavLink("Custom Analysis", href="/custom", active="exact", id = ids.CUSTOM_TAB, n_clicks = 0),
+                # dbc.NavLink("Custom Analysis", href="/custom", active="exact", id = ids.CUSTOM_TAB, n_clicks = 0),
             ],
             vertical=True,
             pills=True,
