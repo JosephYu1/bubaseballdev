@@ -41,10 +41,25 @@
  
 ---
 
+#### Baylor Developers Only: ####
+##### SSH Tunneling with BU Servers #####
+To tunnel with Baylor University servers so that your local machine can listen to remote server ports, perform the following steps:
+    1. Open a terminal on your local machine.
+    2. input the follow command
+        ```bash
+        ssh -L <port number on local machine>:localhost:<port number on remote server> <remote server address>
+        ```
+    3. Then any application that is served on the port number on the remote server should now be accessible on the local machine on the specified port number.
+    4. Go to a browser on a local machine and go to the address localhost:port_number_of_local_machine
+
+
+---
 #### Authors ####
 
   Greg Speegle, Ph.D., Departmenat of Computer Science, Baylor Univesity    
+  Yutai Xue, Department of Computer Science, Baylor University
   Joseph Yu, Department of Computer Science, Baylor University
+
 
 ##### Acknowledgements #####
 
